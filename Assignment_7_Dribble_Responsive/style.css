@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    padding-top: 70px;
+}
+
+.nav-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.nav-bar h3{
+    font-size: 16px;
+    font-weight: 600
+}
+.search-bar{
+    width: 30%;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    border: none;
+    background-color: rgb(237, 237, 237);
+    border-radius: 50px;
+    padding: 0px 8px;
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    background-color: rgb(237, 237, 237);
+    border-radius: 50px;
+    padding: 18px 18px;
+    /* font-weight: bold; */
+    color: black;
+}
+.search-bar input::placeholder{
+    color: black;
+    font-size: 15px
+}
+.search-content{
+    display: flex;
+    gap: 10px;
+}
+.dropdown{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+    color: black;
+    font-weight: 600;
+}
+.search-icon{
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #ec82dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    margin-top: 6px;
+}
+.login-signup-btn{
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    gap: 4px;
+}
+.signup{
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.login{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 50px;
+    outline: none;
+    padding: 14px 22px;
+    cursor: pointer;
+}
+.content{
+    width: 80%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto
+}
+.main-head{
+    font-size: 30px;
+    font-weight: 500;
+}
+.profile-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 15%;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.pic-name{
+    display: flex;
+    gap: 10px;
+}
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-pic-1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name{
+    font-weight: 600;
+}
+.name-1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.follow{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    font-weight: 500;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.icon-btn{
+    padding: 9px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.buttons-btn{
+    font-size: 16px;
+    padding: 10px 18px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.post-1{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 12px;
+}
+.post-desc{
+    margin-left: 12%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 24px;
+}
+.post-desc-1{
+    margin-left: 12%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.post-bold{
+    margin-left: 12%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 900;
+}
+.pic-name-1{
+    margin-top: 16%;
+    text-align: center;
+}
+.footer {
+    background-color: white;
+    padding: 30px 60px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-top: 5%;
+}
+
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    font-size: 18px;
+}
+
+.footer-links li {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 3.5%;
+}
+
+.footer-bottom .left,
+.footer-bottom .right {
+    display: flex;
+    gap: 20px;
+}
